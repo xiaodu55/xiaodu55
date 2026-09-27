@@ -27,37 +27,6 @@
 - Currently building: Agent platform engineering — RAG evaluation gates, exactly-once tool approval, multi-channel agent workbench
 - I believe in verifiable contributions: every number here matches the public record
 
-### 🌿 Open-Source Contributions — 21 PRs Merged in 7 Upstream Repos
-
-| Repository | Contribution | Result |
-| --- | --- | --- |
-| **bytedance/deer-flow** | PII redaction middleware (two slices: HMAC-keyed placeholders, 10+ data channels), gateway tenant-isolation hardening (P1), sandbox fixes | **9 PRs merged** · single PR closed a **12-round review loop** |
-| **helsome/folio** | ConnectionStore concurrent-write clobbering, StreamEventHistory LRU ordering, bounded eval teardown | 5 PRs merged |
-| **axonel/axonel** | Invited: Claude Code CLI backend, SecretRedactor | 2 PRs merged |
-| **heymrun/heym** | Responsible disclosure of a HITL capability-token leak + atomic-claim race fix | **GHSA-6rv3 reporter credit** · 1 PR merged |
-| Others | langgenius/dify · freeCodeCamp | 1 each |
-
-### 🚀 Projects
-
-**[HFusionHub](https://github.com/xiaodu55/HFusionHub1)** · Multi-tenant AI Agent platform — Java + Python split-tier
-
-- Java owns the MySQL write path (transactions / multi-tenancy / billing ledger); Python owns retrieval & the ReAct agent — internal token + HMAC-signed contract, contract anchors enforced by CI
-- Full RAG pipeline: hybrid retrieval (vector + BM25 + RRF) → evidence gating → per-claim [n] citations; **220-case frozen eval suite as a blocking CI gate** (recall@5 = 0.932)
-- Exactly-once tool approval: one-time scoped execution token + guarded UPDATE; state machine via conditional UPDATE transitions, race-regression tested
-- Tests: Java 697 / Python 1556 / frontend 101 + Playwright 73 E2E
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=xiaodu55&amp;repo=HFusionHub1&amp;theme=github_dark&amp;hide_border=true" />
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=xiaodu55&amp;repo=HFusionHub1&amp;hide_border=true" alt="HFusionHub1 repo card" />
-  </picture>
-</div>
-
-**🔒 AgentHarbor** · Self-hosted multi-channel agent workbench (private repo, demo on request)
-
-- Unified access across Web / Electron and 7 IM channels (Feishu, Telegram, QQ, DingTalk, WeChat, Discord, WhatsApp); four-ledger reliable delivery, zero-network sandbox, tool-source arbitration
-- 20-case Gold / Bad / Ambiguous replay eval: 0% false positives, 100% dangerous-action interception
-
 ### 📮 Contact
 
 `kfeng.du@outlook.com` — resume & project details on request
