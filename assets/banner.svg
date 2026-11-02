@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="AI Agent × Backend Engineering — AI applications & agent platforms">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="AI Agent × Backend Engineering — AI applications &amp; agent platforms">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0A1120"/>
@@ -47,5 +47,5 @@
   <rect x="66" y="150" width="76" height="4" rx="2" fill="url(#accent)"/>
   <text x="64" y="200" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="600" fill="#AFC4E8">AI Applications &amp; Agent Platforms · Backend Developer</text>
   <text x="64" y="248" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#7C93BC">LangGraph · RAG Evaluation Gates · MCP · Exactly-Once Tool Approval · Multi-Tenancy</text>
-  <text x="64" y="286" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#5E739E">bytedance/deer-flow — 9 PRs merged · 12-round review loop · GHSA-6rv3 reporter credit</text>
+  <text x="64" y="286" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#5E739E">bytedance/deer-flow — 29 PRs merged · 12-round review loop · GHSA-6rv3 reporter credit</text>
 </svg>
